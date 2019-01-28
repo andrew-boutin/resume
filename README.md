@@ -1,8 +1,14 @@
 # Resume
 
-This is my resume generated using Latex.
+This is my [resume](resume.pdf) generated using [LaTeX](https://www.latex-project.org/).
 
-Why? Because I wanted to learn to use Latex.
+## How it Works
+
+Install [Docker](https://www.docker.com/), modify [resume.tex](resume.tex), and run
+
+    make
+
+to re-generate [resume.pdf](resume.pdf).
 
 ---
 
