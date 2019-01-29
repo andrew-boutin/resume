@@ -6,4 +6,4 @@ default: run
 .PHONY: run
 run:
 	docker build -t latexresumebuilder .
-	docker run -v $(PWD):/resume latexresumebuilder
+	docker run --rm -v $(PWD):/resume latexresumebuilder
